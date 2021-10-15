@@ -4,42 +4,43 @@ using System.Text;
 
 
 
+
 namespace OtecLibrary
 {
     public class Curso
     {
         private int id;
         private string nombre;
-        private string asignatura;
-        private string sede;
+        //private string asignatura;
+        //private string sede;
        // Coordinador coaordinador = new Coordinador();
-        private Coordinador coordinador;
+        //private Coordinador coordinador;
 
         public Curso()
         {
 
         }
 
-        public Curso(int id, string nombre, string asignatura, string sede,Coordinador coordinador)
+        public Curso(int id, string nombre)
         {
             this.id = id;
             this.nombre = nombre;
-            this.asignatura = asignatura;
-            this.sede = sede;
-            this.coordinador = coordinador;
+            //this.asignatura = asignatura;
+            //this.sede = sede;
+            //this.coordinador = coordinador;
         }
 
-        public string Sede
-        {
-            get { return sede; }
-            set { sede = value; }
-        }
+        //public string Sede
+        //{
+        //    get { return sede; }
+        //    set { sede = value; }
+        //}
 
-        public string Asignaura
-        {
-            get { return asignatura; }
-            set { asignatura = value; }
-        }
+        //public string Asignaura
+        //{
+        //    get { return asignatura; }
+        //    set { asignatura = value; }
+        //}
 
         public string Nombre
         {
@@ -52,6 +53,6 @@ namespace OtecLibrary
             get { return id; }
             set { id = value; }
         }
-
+       
     }
 }

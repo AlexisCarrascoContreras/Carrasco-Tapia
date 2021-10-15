@@ -8,26 +8,18 @@ namespace OtecLibrary
     {
         private int id;
         private string nombre;
-        private string administrador;
+      
 
         public Sede()
         {
 
         }
 
-        public Sede(int id, string nombre, string administrador)
+        public Sede(int id, string nombre)
         {
             this.id = id;
             this.nombre = nombre;
-            this.administrador = administrador;
-
-        }
-
-
-        public string Administrador
-        {
-            get { return administrador; }
-            set { administrador = value; }
+          
         }
 
         public string Nombre

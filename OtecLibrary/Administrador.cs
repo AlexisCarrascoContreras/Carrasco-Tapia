@@ -1,24 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace OtecLibrary
 {
-    public class Coordinador
+    public class Administrador
     {
-      
-
         private int id;
         private string nombre;
         private string rut;
         private int telefono;
 
-        public Coordinador()
+        public Administrador()
         {
 
         }
 
-        public Coordinador(int id, string nombre, string rut, int telefono)
+        public Administrador(int id, string nombre, string rut, int telefono)
         {
             this.id = id;
             this.nombre = nombre;
