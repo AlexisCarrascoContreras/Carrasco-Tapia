@@ -20,9 +20,6 @@ namespace Otec
             Coordinador coo = new Coordinador(1, "Juan Tapia", "12.345.678-9", 912345678);
             Console.WriteLine("Nombre Cordinador :" + cu.Nombre);
 
-
-
-
         }
 
     }
