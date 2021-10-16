@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace OtecLibrary
 {
-    public class Administrador
+    public class Encargado
     {
         private int id;
         private string nombre;
         private string rut;
         private int telefono;
 
-        public Administrador()
+        public Encargado()
         {
 
         }
 
-        public Administrador(int id, string nombre, string rut, int telefono)
+        public Encargado(int id, string nombre, string rut, int telefono)
         {
             this.id = id;
             this.nombre = nombre;
